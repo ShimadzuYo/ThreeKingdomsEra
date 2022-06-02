@@ -1,0 +1,38 @@
+﻿@model OfficersListViewModel
+
+@{
+    Layout = "_Layout";
+}
+
+<h2>List of Officers</h2>
+<a class="btn btn-primary" asp-action="Add">Add officer</a>
+<table class="table table-hover">
+    <thead>
+    <th>Id</th>
+    <th>Surname</th>
+    <th>Name</th>
+    <th>Birth</th>
+    <th>Death</th>
+    <th>Kingdom</th>
+    <th>Bio</th>
+
+    </thead>
+    <tbody>
+    @foreach (var officer in Model.Officers)
+    {
+        <tr>
+            <td>@officer.Id</td>
+            <td>@officer.Surname</td>
+            <td>@officer.Name</td>
+            <td>@officer.Birth</td>
+            <td>@officer.Death</td>
+            <td>@officer.Kingdom</td>
+            <td>@officer.Bio</td>
+            <td>
+                <a class="btn btn-info" role="button" asp-action="Edit" asp-route-id="@officer.Id">Edit</a>
+                <a class="btn btn-info" role="button" asp-action="Details" asp-route-id="@officer.Id">Details</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

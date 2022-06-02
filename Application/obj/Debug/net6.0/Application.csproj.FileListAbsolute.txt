@@ -1,0 +1,17 @@
+D:\programming\.NetPractice\ThreeKingdomsEra\Application\bin\Debug\net6.0\Application.deps.json
+D:\programming\.NetPractice\ThreeKingdomsEra\Application\bin\Debug\net6.0\Application.dll
+D:\programming\.NetPractice\ThreeKingdomsEra\Application\bin\Debug\net6.0\Application.pdb
+D:\programming\.NetPractice\ThreeKingdomsEra\Application\bin\Debug\net6.0\Core.dll
+D:\programming\.NetPractice\ThreeKingdomsEra\Application\bin\Debug\net6.0\Core.pdb
+D:\programming\.NetPractice\ThreeKingdomsEra\Application\obj\Debug\net6.0\Application.csproj.AssemblyReference.cache
+D:\programming\.NetPractice\ThreeKingdomsEra\Application\obj\Debug\net6.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\programming\.NetPractice\ThreeKingdomsEra\Application\obj\Debug\net6.0\Application.AssemblyInfoInputs.cache
+D:\programming\.NetPractice\ThreeKingdomsEra\Application\obj\Debug\net6.0\Application.AssemblyInfo.cs
+D:\programming\.NetPractice\ThreeKingdomsEra\Application\obj\Debug\net6.0\Application.csproj.CoreCompileInputs.cache
+D:\programming\.NetPractice\ThreeKingdomsEra\Application\obj\Debug\net6.0\Application.csproj.CopyComplete
+D:\programming\.NetPractice\ThreeKingdomsEra\Application\obj\Debug\net6.0\Application.dll
+D:\programming\.NetPractice\ThreeKingdomsEra\Application\obj\Debug\net6.0\refint\Application.dll
+D:\programming\.NetPractice\ThreeKingdomsEra\Application\obj\Debug\net6.0\Application.pdb
+D:\programming\.NetPractice\ThreeKingdomsEra\Application\obj\Debug\net6.0\ref\Application.dll
+D:\programming\.NetPractice\ThreeKingdomsEra\Application\bin\Debug\net6.0\Application.runtimeconfig.json
+D:\programming\.NetPractice\ThreeKingdomsEra\Application\obj\Debug\net6.0\Application.genruntimeconfig.cache

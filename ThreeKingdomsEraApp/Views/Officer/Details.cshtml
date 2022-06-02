@@ -1,0 +1,46 @@
+﻿@model OfficerDetailsViewModel
+
+@{
+    Layout = "_Layout";
+    var officer = Model.Officer;
+}
+
+<h2>@officer.Surname @officer.Name</h2>
+<button class="btn btn-danger" id="delete-btn">Delete</button>
+
+<dl class="row">
+
+    <dt class="col-sm-3">Id</dt>
+    <dd class="col-sm-9">@officer.Id</dd>
+
+   
+    <dt class="col-sm-3">Birth</dt>
+    <dd class="col-sm-9">@officer.Birth</dd>
+
+
+    <dt class="col-sm-3">Death</dt>
+    <dd class="col-sm-9">@officer.Death</dd>
+
+    <dt class="col-sm-3">Kingdom</dt>
+    <dd class="col-sm-9">@officer.Kingdom</dd>
+
+    <dt class="col-sm-3">Bio</dt>
+    <dd class="col-sm-9">@officer.Bio</dd>
+
+
+</dl>
+
+
+<script>
+ const deleteBtn = document.getElementById("delete-btn");
+ deleteBtn.onclick = function(event) {
+     const isOk = confirm('Are you sure about that?');
+     if (isOk) {
+         fetch("@Url.Action("Delete")" + "/@officer.Id", {
+             method: 'DELETE'})
+             .then((response) => {
+                window.location.replace("@Url.Action("List")");
+             });
+     }
+ };
+</script>
